@@ -70,13 +70,11 @@ export const getDefaultSchema = (
 						type: "number",
 						title: "",
 						description: "",
-						properties: {},
 				  }
 				: {
 						type: "number",
 						title: "",
 						description: "",
-						properties: {},
 				  };
 		case DataType.boolean:
 			return includeSchema
@@ -85,13 +83,11 @@ export const getDefaultSchema = (
 						type: "boolean",
 						title: "",
 						description: "",
-						properties: {},
 				  }
 				: {
 						type: "boolean",
 						title: "",
 						description: "",
-						properties: {},
 				  };
 		case DataType.integer:
 			return includeSchema
@@ -100,13 +96,11 @@ export const getDefaultSchema = (
 						type: "integer",
 						title: "",
 						description: "",
-						properties: {},
 				  }
 				: {
 						type: "integer",
 						title: "",
 						description: "",
-						properties: {},
 				  };
 		case DataType.array:
 			return includeSchema
@@ -156,13 +150,11 @@ export const getDefaultSchema = (
 						type: "string",
 						title: "",
 						description: "",
-						properties: {},
 				  }
 				: {
 						type: "string",
 						title: "",
 						description: "",
-						properties: {},
 				  };
 	}
 };
